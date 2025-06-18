@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light"> <!-- toggle this for dark/light -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animals</title>
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="container mb-5">
+    <!-- Theme toggle buttons -->
+    <div class="d-flex justify-content-end mb-2">
+      <div class="btn-group">
+        <button class="btn btn-secondary" id="darkBtn">Dark</button>
+        <button class="btn btn-light" id="lightBtn">Light</button>
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div class="mb-3">
+      <h2>Animals</h2>
+    </div>
+
+    <!-- Search + Menu Buttons -->
+    <!-- <div class="row">
+      <div class="col-md-4 mb-2">
+        <input type="text" class="form-control" placeholder="Search Animals" />
+      </div>
+      <div class="col-md-8">
+        <nav class="discussion-menu d-flex justify-content-start gap-3">
+          <a href="#" class="text-decoration-none">Adaptations</a>
+          <a href="#" class="btn text-bg-primary rounded-3">Behavior</a>
+          <a href="#" class="text-decoration-none">Conservation</a>
+          <a href="#" class="text-decoration-none">Diversity</a>
+        </nav>
+      </div>
+    </div> -->
+
+<div class="row align-items-center mb-4">
+  <!-- Left Column (Search) -->
+  <div class="col-md-4">
+    <input type="text" class="form-control" placeholder="Search Animals" />
+  </div>
+
+  <!-- Right Column (Menu Items) -->
+  <div class="col-md-8">
+    <div class="d-flex justify-content-end gap-3 discussion-menu">
+      <a href="#" class="text-decoration-none">Adaptations</a>
+      <a href="#" class="btn text-bg-primary rounded-3">Behavior</a>
+      <a href="#" class="text-decoration-none">Conservation</a>
+      <a href="#" class="text-decoration-none">Diversity</a>
+    </div>
+  </div>
+</div>
+
+
+
+  </header>
+
+  <!-- Animal Cards -->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./images/penguine.jpg" class="animal-img mx-auto d-block mt-3" />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./images/dog.jpg" class="animal-img mx-auto d-block mt-3" />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./images/kitten.jpg" class="animal-img mx-auto d-block mt-3" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./js/darkmodetoggle.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
